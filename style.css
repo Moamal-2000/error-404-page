@@ -38,13 +38,18 @@ body {
     -moz-transform: scale(0.60);
     -ms-transform: scale(0.60);
     -o-transform: scale(0.60);
-}
+  }
 }
 
 .error-404 .number-four {
   color: var(--main-color);
   font-size: 210px;
   font-weight: bold;
+  transition: color 0.3s;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
 }
 
 .cute-guy-container {
@@ -75,6 +80,11 @@ body {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  transition: border-color 0.3s;
+  -webkit-transition: border-color 0.3s;
+  -moz-transition: border-color 0.3s;
+  -ms-transition: border-color 0.3s;
+  -o-transition: border-color 0.3s;
 }
 
 .head::before {
@@ -90,6 +100,11 @@ body {
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
+  transition: background-color 0.3s;
+  -webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  -ms-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
 }
 
 .head::after {
@@ -121,6 +136,11 @@ body {
   -o-border-radius: 50%;
   animation: eyes 4s infinite ease-in-out;
   -webkit-animation: eyes 4s infinite ease-in-out;
+  transition: background-color 0.3s;
+  -webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  -ms-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
 }
 
 .head .eyes::before {
@@ -181,6 +201,11 @@ body {
   -o-transform: translateX(-50%);
   width: 20px;
   height: 2px;
+  transition: background-color 0.3s;
+  -webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  -ms-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
 }
 
 .number-zero {
@@ -198,6 +223,11 @@ body {
   display: flex;
   justify-content: center;
   overflow: hidden;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
 }
 
 .cute-guy {
@@ -210,6 +240,11 @@ body {
   -moz-transform: translateY(-20px);
   -ms-transform: translateY(-20px);
   -o-transform: translateY(-20px);
+  transition: border-color 0.3s;
+  -webkit-transition: border-color 0.3s;
+  -moz-transition: border-color 0.3s;
+  -ms-transition: border-color 0.3s;
+  -o-transition: border-color 0.3s;
 }
 
 .error-container p {
@@ -217,6 +252,11 @@ body {
   margin-top: 30px;
   margin-bottom: 40px;
   user-select: text;
+  transition: color 0.3s;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
 }
 
 .home-button {
@@ -246,9 +286,23 @@ body {
 
 
 @keyframes eyes {
-  0% {height: .8rem}
-  50% {height: .8rem}
-  52% {height: .1rem}
-  54% {height: .8rem}
-  100% {height: .8rem}
+  0% {
+    height: .8rem
+  }
+
+  50% {
+    height: .8rem
+  }
+
+  52% {
+    height: .1rem
+  }
+
+  54% {
+    height: .8rem
+  }
+
+  100% {
+    height: .8rem
+  }
 }
